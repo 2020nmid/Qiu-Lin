@@ -1,0 +1,471 @@
+body{
+    margin: 0;
+    width: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    line-height: 30px;
+    margin-top: 15px;
+}
+.header-left li{
+    padding-left: 15px;
+    line-height: 30px;
+}
+.header-left li:last-child{
+    padding-left: 0;
+}
+.logo img{
+    height:35px;
+    vertical-align: middle;
+    float: left;
+    padding-left: 25px;
+}
+.header-left ul{
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin:0;
+}
+.header-left a{
+    font-size:13px;
+    color: black;
+}
+.item img{
+    height:20px;
+    vertical-align:middle;
+    margin-left: 2px;
+}
+.bml img{
+    height:35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -2px;
+}
+.cell img{
+    height:25px;
+    vertical-align:middle;
+}
+.search{
+    position: absolute;
+    top: 15px;
+    right:340px;
+}
+.search input{
+    margin-left: 15px;
+    height: 33px;
+    width:440px;
+    color: #999;
+    font-size: 14px;
+    line-height: 34px;
+    border:none;
+    outline: none;
+    background-color: #F4F4F4;
+}
+.search img{
+    width:15px;
+    height:17px;
+    position: relative;
+}
+.search button{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+}
+.header-right{
+    position: absolute;
+    top: 15px;
+    right:150px;
+}
+.header-right a{
+    font-size:13px;
+    color: black;
+    padding-right: 10px;
+}
+.ww img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #C8C8C8;
+}
+.ww {
+    display: flex;
+    flex-direction: row;
+}
+.kk{
+    position: absolute;
+    margin-left: 120px;
+    top:-2px;
+    width:100px;
+    height: 36px;
+    background-color: #FB7299;
+    border-radius: 2px;
+    text-align: center;
+}
+.kk a{
+    font-size:13px;
+    color: #FFFFFF;
+}
+.ww a:hover{
+    color: #00A1D6;
+}
+.one{
+    background: #00a0d8;
+    height: 86px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.one img{
+    position: absolute;
+    left: 220px;
+}
+.title-line{
+    width: 980px;
+    height: 28px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.title{
+    width: 116px;
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center;
+}
+.register{
+    width: 980px;
+    height:398px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.nickname{
+    width: 420px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+}
+.nickname input{
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+}
+.register input:hover{
+   border-color:  #00A1D6;
+}
+.mima{
+    width: 420px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    padding-top: 40px;
+}
+.mima input{
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    color: #DCDFE6;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+}
+.telephone{
+    width: 420px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    padding-top: 40px;
+}
+.telephone-left input{
+    position: relative;
+    font-size: 14px;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    color: #DCDFE6;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;   
+    cursor: pointer;
+}
+.telephone-left img{
+    width:35px;
+    position: absolute;
+    left:100px;
+    bottom:5px;
+    cursor: pointer;
+}
+.telephone-right input{
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    color: #DCDFE6;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+}
+.telephone-right{
+   position: relative;
+   margin-left: 135px;
+   margin-top:-42px;
+   padding:0;
+}
+.yanzhengma{
+    width: 420px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    padding-top: 40px;
+}
+.yanzhengma input{
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    color: #DCDFE6;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+}
+.yanzhengma button{
+    border-radius: 4px;
+    color:white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #00A1D6;
+    height: 40px;
+    width:150px;
+    position: absolute;
+    top:40px;
+    left:300px;
+}
+.di{
+    width: 420px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    padding-top: 10px;
+}
+.di button{
+    width:14px;
+    height:14px;
+    border:1px solid #CCD0D7;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.di p{
+    margin:0;
+    position: absolute;
+    top:10px;
+    left: 20px;
+    font-size:12px;
+    color:#555;
+    
+}
+.di span{
+    color:#00A1D6;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.zhuce{
+    width: 420px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 10px;
+}
+.zhuce button{
+    width:450px;
+    height:42px;
+    border:1px solid #CCD0D7;
+    background-color: #00A1D6;
+    cursor: pointer;
+    border-radius: 4px;
+    color:#FFFFFF;
+    font-size: 14px;
+}
+.final{
+    text-align: right;
+    width: 420px;
+    height: 40px;
+    margin: 0 auto;
+}
+.final p{
+    font-size: 12px;
+    color: #00A1D6;
+    cursor: pointer;
+    position: absolute;
+    right:470px;
+}
+.bili-footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 387px;
+    margin-top: 3%;
+    color: #99a2aa;
+    background-color: #F6F9FA;
+    text-align: center;
+    font-size: 12px;
+    align-content: center;
+    justify-content: center;
+}
+.bili-footer ul{
+    margin: 0;
+    padding:0;
+}
+.bili-footer li {
+    display: inline-block;
+    line-height: 1;
+    width: 395px;
+    height: 122px
+}
+.bili-footer li:first-child{
+    display: inline-block;
+    line-height: 1;
+    width: 500px;
+    height: 122px
+}
+.bili-footer li:nth-of-type(2) {
+    padding:0 40px ;
+    margin-top: 50px;
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+.tip {
+    font-size: 16px;
+    float: left;
+    margin-left: 70px;
+}
+.tip2{
+    font-size: 16px;
+    float: left;
+    margin-left: 15px;
+}
+.card {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.card a {
+    color: #222;
+    display: inline-block;
+    font-size: 14px;
+    width: 120px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.card a:hover {
+    color: #00a7de;
+}
+.right{
+    display: flex;
+    width: 100%;
+    height:122px ;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.right div{
+    margin-left: 10px;
+    display: inline-block;
+}
+.right div:hover{
+    cursor: pointer ;
+}
+.model-app img{
+    position: relative;
+    margin-left: 11px;
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+.footer-webio img{
+    position: relative;
+    margin-left: 11px;
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+}
+.footer-chat img{
+    position: relative;
+    margin-left: 11px;
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+}
+.right span{
+    font-size: 14px;
+    color: #222;
+    display:block;
+    margin-top: 10px;
+    margin-left:15px;
+}
+.bottom{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+.bottom-left img{
+    width:100px;
+}
+.bottom-right{
+    margin-left: 20px;
+}
+.bottom-right p{
+    text-align: left;
+    line-height: 25px;
+}
+.bottom-right img{
+    width:15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.bottom-right span:hover{
+    color: #222;
+    cursor: pointer;
+}
