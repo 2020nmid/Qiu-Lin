@@ -1,0 +1,283 @@
+.body{}
+li{
+    list-style: none;
+}
+.body a{
+    text-decoration: none;
+}
+.header{
+    height: 56px;
+}
+.menu{
+    float: left;
+    margin-right: 286px;
+}
+.menu li{
+    float: left;
+    margin-right: 13px;
+}
+.menu li img:first-child{
+    margin-top: -10px;
+}
+.menu li img{
+}
+.menu ul a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #212121;
+}
+.search{
+    float: left;
+    margin-right: 286px;
+}
+.search input{
+    height: 36px;
+    width: 450px;
+    background-color: #F4F4F4;
+    border: 1px solid #e2e2e2;
+    font-size: 15px;
+    color: #F4F4F4;
+    padding-left: 17px;
+}
+.search button{
+    display: inline-block;
+    height: 36px;
+    width: 46px;
+    border: none;
+    margin-left: -6px;
+}
+.search button img{
+    vertical-align:middle;
+    margin-left:-6px;
+}
+.sign {
+    float: left;
+}
+.sign li{
+    float: left;
+    height: 38px;
+}
+.sign li img{
+    margin-top: -8px;
+    margin-left: -20px;
+}
+.sign li:first-child {
+    margin-right: 2px;
+}
+.sign li:nth-child(2){
+    margin-right: 12px;
+}
+.sign li:nth-child(3){
+    margin-right: 14px;
+}
+.sign li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 15px;
+    color: #212121;
+}
+.sign li:last-child{
+    margin-top: -10px;
+}
+.last a{
+    display: inline-block;
+    color: white;
+    background-color: #FB7299;
+    text-align: center;
+    padding: 13px 36px 13px 36px;
+}
+.content{}
+.c-top{
+    text-align:center;
+    font-size: 36px;
+    color: #000000;
+}
+.content-left{
+    float: left;
+    margin-right: 46px;
+    height: 355px;
+    border-right: 1px solid #DDDDDD;
+}
+.pic1{
+    margin-left: 599px;
+}
+.content-left li:first-child{
+    margin-left:421px;
+}
+.content-left li:last-child{
+    margin-right: 43px;
+}
+.content-left li{
+    float: left;
+    margin-right: 11px;
+    list-style: none;
+}
+.content-left span{
+    text-align:center;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #222222;
+}
+.content-left p{
+    text-align:center;
+    font-size: 12px;
+    color: #717171;
+}
+.content-left p>span{
+    color: #00A1D6;
+}
+.content-right{
+    height: 355px;
+}
+.r-1 p{
+    float: left;
+    color: #555555;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.r-1 p span{
+    color: #02A7DE;
+}
+.r-1 p:last-child{
+    margin-right: 772px;
+}
+.content-right input{
+    height: 36px;
+    width: 413px;
+    margin-bottom: 33px;
+    padding-left: 10px;
+    margin-right: 200px;
+    font-size: 12px;
+    color: #757575;
+}
+.r-3{
+    height: 38px;
+    margin-top: 12px;
+}
+.content-right button{
+    height: 38px;
+    width: 186px;
+    color: #757575;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    font-size: 16px;
+    margin-right: 42px;
+}
+.content-right button:first-child{
+    background-color: #00A7DE;
+    border: none;
+    color: white;
+}
+.r-4{
+    height: 15px;
+}
+.r-4 li{
+    float: left;
+    font-size: 12px;
+    display: inline-block;
+}
+.r-4 img{
+    margin-right: 10px;
+}
+
+.r-4 span{
+    color: #BBBBBB;
+    margin-right: 10px;
+}
+.r-4 a{
+    color: #00A1D6;
+    margin-right: 330px;
+}
+.r-bottom li{
+    float: left;
+}
+.r-bottom a{
+    font-size: 12px;
+    color: #717171;
+}
+.r-bottom li:nth-child(2){
+    margin-right: 23px;
+}
+.r-bottom img{
+    margin-right: 5px;
+}
+.c-bottom p{
+    text-align:center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #99A2AA;
+}
+.c-bottom p span{
+    color: #52AAE2;
+}
+.bottom{
+    height: 200px;
+    background-color: #F6F9FA;
+}
+.bilibili{
+    float: left;
+    margin-top: 40px;
+    border-right: 1px solid #E5E9EF;
+}
+.bilibili p{
+    font-size: 13px;
+    color: #99AAC6;
+    margin-left: 332px;
+}
+.bilibili li{
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 18px;
+}
+.bilibili ul{
+    margin-left: 292px;
+}
+.bilibili li a{
+    font-size: 15px;
+    color: #222222;
+}
+.door{
+    float: left;
+    margin-top: 40px;
+}
+.door li{
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 18px;
+}
+.door li a{
+    font-size: 15px;
+    color: #222222;
+}
+.door p{
+    font-size: 13px;
+    margin-left: 40px;
+    color: #99AAC6;
+}
+.pic{
+    float: right;
+    margin-top: 40px;
+    margin-right: 340px;
+    border-left: 1px solid #E5E9EF;
+}
+.pic li{
+    float: left;
+}
+.pic li img{
+    margin-right: 27px;
+}
+
+.pic li a{
+    text-decoration: none;
+    text-align:center;
+    font-size: 15px;
+    margin-right: 27px;
+    color: #222222;
+}
+.pic-1 li:first-child{
+    margin-top: -2px;
+}
+.pic li a:hover{
+    color: #00A1D6;
+}
