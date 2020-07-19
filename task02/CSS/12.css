@@ -6,7 +6,7 @@ li{
     text-decoration: none;
 }
 .header{
-    height: 56px;
+    height: 52px;
 }
 .menu{
     float: left;
@@ -88,6 +88,9 @@ li{
     padding: 13px 36px 13px 36px;
 }
 .content{}
+.top{
+    margin-top: -10px;
+}
 .t-0{
     height: 50px;
     margin-bottom: 40px;
@@ -114,131 +117,104 @@ li{
     font-size: 36px;
     color: #000000;
 }
-.content-left{
-    float: left;
-    margin-right: 46px;
-    height: 355px;
-    border-right: 1px solid #DDDDDD;
-}
-.pic1{
-    margin-left: 599px;
-}
-.content-left li:first-child{
-    margin-left:421px;
-}
-.content-left li:last-child{
-    margin-right: 43px;
-}
-.content-left li{
-    float: left;
-    margin-right: 11px;
-    list-style: none;
-}
-.content-left span{
-    text-align:center;
-    margin-left: 10px;
-    font-size: 15px;
-    color: #222222;
-}
-.content-left p{
-    text-align:center;
-    font-size: 12px;
-    color: #717171;
-}
-.content-left p>span{
-    color: #00A1D6;
-}
-.content-right{
-    height: 355px;
-}
-.r-1 p{
-    float: left;
-    color: #555555;
-    font-size: 12px;
-    margin-right: 20px;
-}
-.r-1 p span{
-    color: #02A7DE;
-}
-.r-1 p:last-child{
-    margin-right: 772px;
-}
-.content-right input{
-    height: 36px;
-    width: 413px;
-    margin-bottom: 33px;
+.c-0 input{
+    height: 38px;
+    width: 429px;
+    margin-left: 742px;
+    margin-bottom: 40px;
     padding-left: 10px;
-    margin-right: 200px;
-    font-size: 12px;
-    color: #757575;
+    font-size: 14px;
+    color: #C0C4CC;
+    border-radius: 3px;
+    border: 1px solid #DCDFE6;
 }
-.r-3{
-    height: 38px;
-    margin-top: 12px;
+.c-1{
+    height: 43px;
 }
-.content-right button{
-    height: 38px;
-    width: 186px;
-    color: #757575;
-    background-color: white;
-    border: 1px solid #CCCCCC;
-    font-size: 16px;
-    margin-right: 42px;
-}
-.content-right button:first-child{
-    background-color: #00A7DE;
-    border: none;
-    color: white;
-}
-.r-4{
-    height: 15px;
-}
-.r-4 li{
+.c-1 input{
     float: left;
-    font-size: 12px;
-    display: inline-block;
+    height: 38px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #C0C4CC;
+    border-radius: 3px;
+    border: 1px solid #DCDFE6;
 }
-.r-4 img{
-    margin-right: 10px;
+.c-1 input:first-child{
+    width: 130px;
+    margin-left: 742px;
+}
+.c-1 input:last-child{
+    width: 286px;
+}
+.c-2{
+    margin-top: 40px;
+}
+.c-2 input{
+    height: 38px;
+    width: 429px;
+    margin-left: 742px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #C0C4CC;
+    border-radius: 3px;
+    border: 1px solid #DCDFE6;
+}
+.c-2 button{
+    height: 41px;
+    width: 132px;
+    font-size: 14px;
+    color: white;
+    background-color: #0CA5D8;
+    margin-left: -136px;
+    border: none;
+    border-radius: 3px;
+}
+.c-3{
+    height: 15px;
+    margin-top: -7px;
+}
+.c-3 li img{
+    float: left;
+    margin-left: 703px;
 }
 
-.r-4 span{
-    color: #BBBBBB;
-    margin-right: 10px;
+.c-3 li p{
+    font-size: 12px;
+    color: #000000;
 }
-.r-4 a{
+.c-3 li p>span{
     color: #00A1D6;
-    margin-right: 330px;
 }
-.r-bottom li{
-    float: left;
+.c-4{
+    height: 43px;
+    margin-top: 15px;
 }
-.r-bottom a{
+.c-4 button{
+    margin-left: 742px;
+    height: 43px;
+    width: 453px;
+    background-color: #F5F5F5;
+    font-size: 14px;
+    color: #B8B8B8;
+    border-radius: 3px;
+    border: 1px solid #DCDFE6;
+}
+.content a{
+    text-align: center;
+    text-decoration: none;
     font-size: 12px;
-    color: #717171;
-}
-.r-bottom li:nth-child(2){
-    margin-right: 23px;
-}
-.r-bottom img{
-    margin-right: 5px;
-}
-.c-bottom p{
-    text-align:center;
-    margin-top: 30px;
-    font-size: 12px;
-    color: #99A2AA;
-}
-.c-bottom p span{
-    color: #52AAE2;
+    color: #00A1D6;
+    margin-left: 1078px;
 }
 .bottom{
     height: 200px;
+    margin-top: 80px;
     background-color: #F6F9FA;
 }
 .bilibili{
     float: left;
-    margin-top: 40px;
+    margin-top: 32px;
     border-right: 1px solid #E5E9EF;
 }
 .bilibili p{
@@ -249,7 +225,7 @@ li{
 .bilibili li{
     float: left;
     margin-right: 60px;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 .bilibili ul{
     margin-left: 292px;
@@ -260,12 +236,12 @@ li{
 }
 .door{
     float: left;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 .door li{
     float: left;
     margin-right: 60px;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 .door li a{
     font-size: 15px;
@@ -278,7 +254,7 @@ li{
 }
 .pic{
     float: right;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-right: 340px;
     border-left: 1px solid #E5E9EF;
 }
