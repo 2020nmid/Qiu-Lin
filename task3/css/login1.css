@@ -1,0 +1,641 @@
+body{
+    margin: 0;
+    width: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    line-height: 30px;
+    margin-top: 15px;
+}
+.header-left li{
+    padding-left: 15px;
+    line-height: 30px;
+}
+.header-left li:last-child{
+    padding-left: 0;
+}
+.logo img{
+    height:35px;
+    vertical-align: middle;
+    float: left;
+    padding-left: 25px;
+}
+.header-left ul{
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin:0;
+}
+.header-left a{
+    font-size:13px;
+    color: black;
+}
+.item img{
+    height:20px;
+    vertical-align:middle;
+    margin-left: 2px;
+}
+.bml img{
+    height:35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -2px;
+}
+.cell img{
+    height:25px;
+    vertical-align:middle;
+}
+.search{
+    position: absolute;
+    top: 15px;
+    right:340px;
+}
+.search input{
+    margin-left: 15px;
+    height: 33px;
+    width:440px;
+    color: #999;
+    font-size: 14px;
+    line-height: 34px;
+    border:none;
+    outline: none;
+    background-color: #F4F4F4;
+}
+.search img{
+    width:15px;
+    height:17px;
+    position: relative;
+}
+.search button{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+}
+.header-right{
+    position: absolute;
+    top: 15px;
+    right:150px;
+}
+.header-right a{
+    font-size:13px;
+    color: black;
+    padding-right: 10px;
+}
+.ww img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #C8C8C8;
+}
+.ww {
+    display: flex;
+    flex-direction: row;
+}
+.kk{
+    position: absolute;
+    margin-left: 120px;
+    top:-2px;
+    width:100px;
+    height: 36px;
+    background-color: #FB7299;
+    border-radius: 2px;
+    text-align: center;
+}
+.kk a{
+    font-size:13px;
+    color: #FFFFFF;
+}
+.ww a:hover{
+    color: #00A1D6;
+}
+.one{
+    background: #00a0d8;
+    height: 86px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.one img{
+    position: absolute;
+    left: 220px;
+}
+.title-line{
+    width: 980px;
+    height: 28px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.title{
+    width: 116px;
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center;
+}
+.login{
+    position: relative;
+    width: 980px;
+    height: 367px;
+    margin: 0 auto;
+}
+.login-left{
+    float: left;
+    position: relative;
+    width: 480px;
+    height: 367px;
+}
+.cc{
+    height: 150px;
+    margin-top: 60px;
+}
+.tv img{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 160px;
+    top: 10px;
+}
+.code img{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    position: absolute;
+    left:165px;
+}
+.zi p{
+    text-align: center;
+    color: #717171;
+    font-size: 14px;
+    margin: 0;
+}
+.zi p:first-child{
+    padding-top: 20px;
+    text-align: center;
+    color: #222;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.zi span{
+    font-size: 14px;
+    text-align: center;
+    color: #00a1d6;
+}
+.cute{
+    width: 480px;
+    height: 155px;
+    position: absolute;
+    top:200px;
+}
+.login-line{
+    float: left;
+    border-right: 1px solid #ddd;
+    height: 300px;
+    margin-top: 28px;
+}
+.login-right{
+    float: right;
+    padding-left: 45px;
+    width: 490px;
+    height: 337px;
+    position: absolute;
+    margin-top: 20px;
+    left:470px;
+}
+.first p{
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 0;
+   cursor: pointer;
+}
+.first span{
+    color: #02a7de;
+    margin-right: 20px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.second input{
+    height: 40px;
+    width: 400px;
+    border: 1px solid #aaa;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.remember{
+    width: 410px;
+    height:16px;
+}
+.remember button{
+    width:14px;
+    height:14px;
+    border:1px solid #CCD0D7;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.remember p{
+    margin:0;
+    position: absolute;
+    top:200px;
+    left: 70px;
+    font-size:14px;
+    color:#555;
+    
+}
+.remember span{
+    color:#BBB;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.hh p{
+    color:#00A1D6;
+    font-size: 12px;
+    position: absolute;
+    left:335px;
+}
+.btn{
+    width:414px;
+    height:38px;
+}
+.btn-left{
+    width:186px;
+    height:38px;
+    position: absolute;
+    background-color: #00a7de;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid #0381aa;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.btn-left a{
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    top:10px;
+}
+.btn-left:hover {
+    background-color: skyblue;
+}
+.popBox{
+    width:280px;
+    height:365px;
+    position: absolute;
+    margin-top:-240px;
+    left:120px;
+    box-shadow: -3px 2px 15px #F2F2F2;
+    border:1px solid #D1D1D1;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1;
+    display: none;
+}
+.popBox p{
+    color: #030303;
+    font-size: 15px;
+    margin-left:10px;
+}
+.popBox span{
+    color: #2178E5;
+}
+#nInformation{
+    position: absolute;
+    left:150px;
+    top:10px;
+}
+#nImg img{
+    width:272px;
+    height:273px;
+    padding-left:5px;
+    padding-right: 5px;
+}
+#success{
+    position: absolute;
+    bottom:40px;
+    left:5px;
+    height:30px;
+    width:272px;
+    background-color: #42CA6B;
+    display:none;
+}
+#failed{
+    position: absolute;
+    bottom:40px;
+    left:5px;
+    height:30px;
+    width:272px;
+    background-color:#EB4F19;
+    display:none;
+}
+#success p{
+    margin:5px;
+    text-align: left;
+    color:white;
+}
+#failed p{
+    margin:5px;
+    text-align: left;
+    color:white;
+}
+.no img{
+   width:25px;
+   cursor: pointer;
+}
+.no{
+    position: absolute;
+    left:10px;
+    margin-top: 5px;
+}
+#close{
+    position: absolute;
+    top:290px;
+    left:20px;
+    background-color: #51514F;
+    height:30px;
+    border-radius: 2px;
+    display: none;
+}
+#tri{
+    width:0;
+    height:0;
+    border-top:10px solid #51514F;
+    border-right:10px solid transparent;
+    position: absolute;
+    left:20px;
+    margin-top: -7px;
+    display: none;
+}
+#close p{
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+.re img{
+    width:23px;
+    cursor: pointer;
+ }
+ .re{
+    position: absolute;
+    left:45px;
+    margin-top: 5px;
+}
+#close1{
+    position: absolute;
+    top:290px;
+    left:55px;
+    background-color: #51514F;
+    height:30px;
+    border-radius: 2px;
+    display: none;
+}
+#tri1{
+    width:0;
+    height:0;
+    border-top:10px solid #51514F;
+    border-right:10px solid transparent;
+    position: absolute;
+    left:55px;
+    margin-top: -7px;
+    display: none;
+}
+#close1 p{
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+.popBox input{
+    width:90px;
+    height:30px;
+    position: absolute;
+    margin-top:2px;
+    left:185px;
+    cursor: pointer;
+    background-color: #539FFE;
+    color: #FFFFFF;
+    border: none;
+}
+.btn-right{
+    width:186px;
+    height:38px;
+    position: absolute;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 12px;
+    right:85px;
+}
+.btn-right a{
+    font-size: 12px;
+    color: #555;
+    position: relative;
+    top:10px;
+}
+.btn-right:hover {
+    background-color: #f7f7f7;
+}
+.sns{
+    width:414px;
+    height:45px;
+}
+.weibo{
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    margin: 0;
+    position: absolute;
+    top:280px;
+}
+.qq{
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    margin: 0;
+    position: absolute;
+    top:280px;
+    left:150px;
+}
+.weibo img{
+    width:20px;
+    height:20px;
+    vertical-align: middle;
+}
+.qq img{
+    width:20px;
+    height:20px;
+    vertical-align: middle;
+}
+.weibo p{
+    margin:0;
+    font-size: 12px;
+    color: #555;
+}
+.qq p{
+    margin:0;
+    font-size: 12px;
+    color: #555;
+}
+.end{
+    margin: 24px auto 0;
+    width: 980px;
+    position: absolute;
+    top:90%;
+}    
+.end p{
+    font-size: 12px;
+    color: #99a2aa;
+    text-align: center;
+    line-height: 16px;
+}
+.end a{
+    color: #00a1d6
+}
+.bili-footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 387px;
+    margin-top: 3%;
+    color: #99a2aa;
+    background-color: #F6F9FA;
+    text-align: center;
+    font-size: 12px;
+    align-content: center;
+    justify-content: center;
+}
+.bili-footer ul{
+    margin: 0;
+    padding:0;
+}
+.bili-footer li {
+    display: inline-block;
+    line-height: 1;
+    width: 395px;
+    height: 122px
+}
+.bili-footer li:first-child{
+    display: inline-block;
+    line-height: 1;
+    width: 500px;
+    height: 122px
+}
+.bili-footer li:nth-of-type(2) {
+    padding:0 40px ;
+    margin-top: 50px;
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+.tip {
+    font-size: 16px;
+    float: left;
+    margin-left: 70px;
+}
+.tip2{
+    font-size: 16px;
+    float: left;
+    margin-left: 15px;
+}
+.card {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.card a {
+    color: #222;
+    display: inline-block;
+    font-size: 14px;
+    width: 120px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.card a:hover {
+    color: #00a7de;
+}
+.right{
+    display: flex;
+    width: 100%;
+    height:122px ;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.right div{
+    margin-left: 10px;
+    display: inline-block;
+}
+.right div:hover{
+    cursor: pointer ;
+}
+.model-app img{
+    position: relative;
+    margin-left: 11px;
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+.footer-webio img{
+    position: relative;
+    margin-left: 11px;
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+}
+.footer-chat img{
+    position: relative;
+    margin-left: 11px;
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+}
+.right span{
+    font-size: 14px;
+    color: #222;
+    display:block;
+    margin-top: 10px;
+    margin-left:15px;
+}
+.bottom{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+.bottom-left img{
+    width:100px;
+}
+.bottom-right{
+    margin-left: 20px;
+}
+.bottom-right p{
+    text-align: left;
+    line-height: 25px;
+}
+.bottom-right img{
+    width:15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.bottom-right span:hover{
+    color: #222;
+    cursor: pointer;
+}
